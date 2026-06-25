@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
+  <rect width="192" height="192" rx="38" fill="#061220"/>
+  
+  <!-- ADI top left -->
+  <rect x="16" y="16" width="74" height="74" rx="13" fill="#0d2a4a" stroke="#1e3a5f" strokeWidth="1.5"/>
+  <clipPath id="c4"><rect x="16" y="16" width="74" height="74" rx="13"/></clipPath>
+  <g clip-path="url(#c4)">
+    <rect x="16" y="53" width="74" height="37" fill="#4a2800"/>
+    <line x1="16" y1="53" x2="90" y2="53" stroke="#f5c518" stroke-width="2.5"/>
+    <line x1="32" y1="43" x2="58" y2="43" stroke="#e0eaf6" stroke-width="1.5" opacity="0.5"/>
+    <rect x="29" y="48" width="19" height="4" rx="2" fill="#e0eaf6"/>
+    <rect x="58" y="48" width="19" height="4" rx="2" fill="#e0eaf6"/>
+    <circle cx="53" cy="50" r="4" fill="#e0eaf6"/>
+  </g>
+  <text x="53" y="80" text-anchor="middle" fill="#4a90d9" font-size="10" font-family="monospace">ADI</text>
+
+  <!-- Altimeter top right -->
+  <rect x="102" y="16" width="74" height="74" rx="13" fill="#0d1b2a" stroke="#1e3a5f" strokeWidth="1.5"/>
+  <circle cx="139" cy="53" r="26" fill="none" stroke="#1e3a5f" stroke-width="1.5"/>
+  <line x1="139" y1="53" x2="139" y2="32" stroke="#f5c518" stroke-width="3" stroke-linecap="round" transform="rotate(200 139 53)"/>
+  <line x1="139" y1="53" x2="139" y2="38" stroke="#e0eaf6" stroke-width="2" stroke-linecap="round" transform="rotate(80 139 53)"/>
+  <circle cx="139" cy="53" r="4" fill="#4a90d9"/>
+  <text x="139" y="80" text-anchor="middle" fill="#4a90d9" font-size="10" font-family="monospace">ALT</text>
+
+  <!-- Branding bottom -->
+  <rect x="16" y="102" width="160" height="74" rx="13" fill="#0d1b2a" stroke="#1e3a5f" stroke-width="1.5"/>
+  <text x="96" y="132" text-anchor="middle" fill="#e0eaf6" font-size="14" font-family="monospace" letter-spacing="3">PILOT OPS</text>
+  <text x="96" y="156" text-anchor="middle" font-size="18" font-family="monospace" font-weight="bold">
+    <tspan fill="#e0eaf6">GAS</tspan><tspan fill="#4a90d9">P</tspan>
+  </text>
+
+  <!-- Border -->
+  <rect width="192" height="192" rx="38" fill="none" stroke="#1e3a5f" stroke-width="2"/>
+</svg>
